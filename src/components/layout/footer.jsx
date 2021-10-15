@@ -23,7 +23,7 @@ const data = [
 const FooterComponent = () => (
     <div>
         <div className="doggy">
-        <Tooltip color="#003B59" visible={true} placement="topLeft" title="Need help ? ">
+        <Tooltip color="#003B59" visible={true} placement="topRight" title="Need help ? ">
         <img src={doggy}/>
         </Tooltip>
         </div>

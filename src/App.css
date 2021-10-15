@@ -317,11 +317,14 @@ iPad 3
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-
+  .ant-tooltip{
+    left: 1212px !important;
+    top: 516px !important;
+  }
     .doggy {
         bottom: 61px;
         position: absolute;
-        right: 0px;
+        right: 72px;
     }
     .connect-wallet {
         right: 8%;
